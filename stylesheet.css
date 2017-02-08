@@ -1,0 +1,112 @@
+@media screen and (max-width: 425px) {
+header, footer {
+	
+	background-color: lightblue;
+}
+
+
+nav {	
+    
+    background-color: yellow;
+	
+}
+
+article {
+	
+	background-color: lightgreen;
+	
+}
+
+aside {	
+	
+	background-color: orange;
+	
+}
+
+section {
+	background-color: pink;
+	
+}
+
+ }
+
+ @media screen and (min-width: 426px) and (max-width: 850px) {
+header, footer {
+	
+	background-color: lightblue;
+}
+
+
+nav {	
+    
+    background-color: yellow;
+	width: 49%;
+	float: left;
+	height: 500px;
+	margin-right: 2px;
+	margin-bottom: 10px;
+	
+}
+
+article {
+	height: 500px;
+	background-color: lightgreen;
+	width: 49%;
+	float: right;
+	margin-bottom: 10px;
+}
+
+aside {	
+	clear: both;
+	background-color: orange;
+	
+}
+
+section {
+	background-color: pink;
+	
+}
+
+ }
+
+
+@media screen and (min-width: 851px) {
+header, footer {
+	
+	background-color: lightblue;
+}
+
+
+nav {	
+    height: 400px;
+    width: 33%;
+    background-color: yellow;
+	
+}
+
+article {
+	width: 33%;
+	height: 400px;
+	background-color: lightgreen;
+	
+}
+
+aside {	
+	width: 33%;
+	height: 400px;
+	background-color: orange;
+	
+}
+
+section {
+	background-color: pink;
+
+}
+
+.num {
+
+	display: inline-block;
+    vertical-align: top;
+    height: 500px;
+}
+}
